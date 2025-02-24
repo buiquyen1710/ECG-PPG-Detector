@@ -1,0 +1,195 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x33 (SPI_FAST_FLASH_BOOT)
+flash read err, 988
+ets_main.c 384 
+ets Jul 29 2019 12:21:46
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.2.3-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Jan 20 2025 20:57:21[0m
+[0;32mI (32) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v3.1[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (45) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (54) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (63) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (97) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a3f4h ( 41972) map[0m
+[0;32mI (119) esp_image: segment 1: paddr=0001a41c vaddr=3ff80000 size=00004h (     4) load[0m
+[0;32mI (120) esp_image: segment 2: paddr=0001a428 vaddr=3ffb0000 size=05bf0h ( 23536) load[0m
+[0;32mI (134) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=1628ch ( 90764) map[0m
+[0;32mI (165) esp_image: segment 4: paddr=000362b4 vaddr=3ffb5bf0 size=1c104h (114948) load[0m
+[0;32mI (208) esp_image: segment 5: paddr=000523c0 vaddr=40080000 size=0c514h ( 50452) load[0m
+[0;32mI (242) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (242) boot: Disabling RNG early entropy source...[0m
+[0;32mI (254) cpu_start: Multicore app[0m
+[0;32mI (263) cpu_start: Pro cpu start user code[0m
+[0;32mI (263) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (263) cpu_start: Application information:[0m
+[0;32mI (266) cpu_start: Project name:     main[0m
+[0;32mI (271) cpu_start: App version:      1[0m
+[0;32mI (275) cpu_start: Compile time:     Jan 20 2025 20:56:37[0m
+[0;32mI (281) cpu_start: ELF file SHA256:  357818f61...[0m
+[0;32mI (287) cpu_start: ESP-IDF:          v5.2.3-dirty[0m
+[0;32mI (292) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (297) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (301) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (306) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (314) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (319) heap_init: At 3FFD25F8 len 0000DA08 (54 KiB): DRAM[0m
+[0;32mI (326) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (332) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (338) heap_init: At 4008C514 len 00013AEC (78 KiB): IRAM[0m
+[0;32mI (346) spi_flash: detected chip: generic[0m
+[0;32mI (349) spi_flash: flash io: dio[0m
+[0;33mW (353) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (367) main_task: Started on CPU0[0m
+[0;32mI (377) main_task: Calling app_main()[0m
+[0;32mI (377) gpio: GPIO[2]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (377) AD8232: Starting AD8232 monitoring...[0m
+[0;32mI (387) AD8232: 0[0m
+[0;32mI (587) AD8232: 0[0m
+[0;32mI (787) AD8232: 0[0m
+[0;32mI (987) AD8232: 0[0m
+[0;32mI (1187) AD8232: 0[0m
+[0;32mI (1387) AD8232: 0[0m
+[0;32mI (1587) AD8232: 0[0m
+[0;32mI (1787) AD8232: 0[0m
+[0;32mI (1987) AD8232: 0[0m
+[0;32mI (2187) AD8232: 0[0m
+[0;32mI (2387) AD8232: 0[0m
+[0;32mI (2587) AD8232: 0[0m
+[0;32mI (2787) AD8232: 0[0m
+[0;32mI (2987) AD8232: 0[0m
+[0;32mI (3187) AD8232: 0[0m
+[0;32mI (3387) AD8232: 0[0m
+[0;32mI (3587) AD8232: 0[0m
+[0;32mI (3787) AD8232: 0[0m
+[0;32mI (3987) AD8232: 0[0m
+[0;32mI (4187) AD8232: 0[0m
+[0;32mI (4387) AD8232: 0[0m
+[0;32mI (4587) AD8232: 0[0m
+[0;32mI (4787) AD8232: 0[0m
+[0;32mI (4987) AD8232: 0[0m
+[0;32mI (5187) AD8232: 0[0m
+[0;32mI (5387) AD8232: 0[0m
+[0;32mI (5587) AD8232: 0[0m
+[0;32mI (5787) AD8232: 0[0m
+[0;32mI (5987) AD8232: 0[0m
+[0;32mI (6187) AD8232: 0[0m
+[0;32mI (6387) AD8232: 0[0m
+[0;32mI (6587) AD8232: 0[0m
+[0;32mI (6787) AD8232: 0[0m
+[0;32mI (6987) AD8232: 0[0m
+[0;32mI (7187) AD8232: 0[0m
+[0;32mI (7387) AD8232: 0[0m
+[0;32mI (7587) AD8232: 0[0m
+[0;32mI (7787) AD8232: 0[0m
+[0;32mI (7987) AD8232: 0[0m
+[0;32mI (8187) AD8232: 0[0m
+[0;32mI (8387) AD8232: 0[0m
+[0;32mI (8587) AD8232: 0[0m
+[0;32mI (8787) AD8232: 0[0m
+[0;32mI (8987) AD8232: 0[0m
+[0;32mI (9187) AD8232: 0[0m
+[0;32mI (9387) AD8232: 0[0m
+[0;32mI (9587) AD8232: 0[0m
+[0;32mI (9787) AD8232: 0[0m
+[0;32mI (9987) AD8232: 0[0m
+[0;32mI (10187) AD8232: 0[0m
+[0;32mI (10387) AD8232: 0[0m
+[0;32mI (10587) AD8232: 0[0m
+[0;32mI (10787) AD8232: 0[0m
+[0;32mI (10987) AD8232: 0[0m
+[0;32mI (11187) AD8232: 0[0m
+[0;32mI (11387) AD8232: 0[0m
+[0;32mI (11587) AD8232: 0[0m
+[0;32mI (11787) AD8232: 0[0m
+[0;32mI (11987) AD8232: 0[0m
+[0;32mI (12187) AD8232: 0[0m
+[0;32mI (12387) AD8232: 0[0m
+[0;32mI (12587) AD8232: 0[0m
+[0;32mI (12787) AD8232: 0[0m
+[0;32mI (12987) AD8232: 0[0m
+[0;32mI (13187) AD8232: 0[0m
+[0;32mI (13387) AD8232: 0[0m
+[0;32mI (13587) AD8232: 0[0m
+[0;32mI (13787) AD8232: 0[0m
+[0;32mI (13987) AD8232: 0[0m
+[0;32mI (14187) AD8232: 0[0m
+[0;32mI (14387) AD8232: 0[0m
+[0;32mI (14587) AD8232: 0[0m
+[0;32mI (14787) AD8232: 0[0m
+[0;32mI (14987) AD8232: 0[0m
+[0;32mI (15187) AD8232: 0[0m
+[0;32mI (15387) AD8232: 0[0m
+[0;32mI (15587) AD8232: 0[0m
+[0;32mI (15787) AD8232: 0[0m
+[0;32mI (15987) AD8232: 0[0m
+[0;32mI (16187) AD8232: 0[0m
+[0;32mI (16387) AD8232: 0[0m
+[0;32mI (16587) AD8232: 0[0m
+[0;32mI (16787) AD8232: 0[0m
+[0;32mI (16987) AD8232: 0[0m
+[0;32mI (17187) AD8232: 0[0m
+[0;32mI (17387) AD8232: 0[0m
+[0;32mI (17587) AD8232: 0[0m
+[0;32mI (17787) AD8232: 0[0m
+[0;32mI (17987) AD8232: 0[0m
+[0;32mI (18187) AD8232: 0[0m
+[0;32mI (18387) AD8232: 0[0m
+[0;32mI (18587) AD8232: 0[0m
+[0;32mI (18787) AD8232: 0[0m
+[0;32mI (18987) AD8232: 0[0m
+[0;32mI (19187) AD8232: 0[0m
+[0;32mI (19387) AD8232: 0[0m
+[0;32mI (19587) AD8232: 0[0m
+[0;32mI (19787) AD8232: 0[0m
+[0;32mI (19987) AD8232: 0[0m
+[0;32mI (20187) AD8232: 0[0m
+[0;32mI (20387) AD8232: 0[0m
+[0;32mI (20587) AD8232: 0[0m
+[0;32mI (20787) AD8232: 0[0m
+[0;32mI (20987) AD8232: 0[0m
+[0;32mI (21187) AD8232: 0[0m
+[0;32mI (21387) AD8232: 0[0m
+[0;32mI (21587) AD8232: 0[0m
+[0;32mI (21787) AD8232: 0[0m
+[0;32mI (21987) AD8232: 0[0m
+[0;32mI (22187) AD8232: 0[0m
+[0;32mI (22387) AD8232: 0[0m
+[0;32mI (22587) AD8232: 0[0m
+[0;32mI (22787) AD8232: 0[0m
+[0;32mI (22987) AD8232: 0[0m
+[0;32mI (23187) AD8232: 0[0m
+[0;32mI (23387) AD8232: 0[0m
+[0;32mI (23587) AD8232: 0[0m
+[0;32mI (23787) AD8232: 0[0m
+[0;32mI (23987) AD8232: 0[0m
+[0;32mI (24187) AD8232: 0[0m
+[0;32mI (24387) AD8232: 0[0m
+[0;32mI (24587) AD8232: 0[0m
+[0;32mI (24787) AD8232: 0[0m
+[0;32mI (24987) AD8232: 0[0m
+[0;32mI (25187) AD8232: 0[0m
+[0;32mI (25387) AD8232: 0[0m
+[0;32mI (25587) AD8232: 0[0m
+[0;32mI (25787) AD8232: 0[0m
+[0;32mI (25987) AD8232: 0[0m
+[0;32mI (25987) AD8232: Output: 0.261622, Predicted Label: 0[0m
+[0;32mI (25987) main_task: Returned from app_main()[0m

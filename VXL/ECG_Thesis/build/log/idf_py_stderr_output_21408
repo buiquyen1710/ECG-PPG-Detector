@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "E:\ESP32\Espressif\python_env\idf5.2_py3.11_env\Lib\site-packages\esptool\__main__.py", line 9, in <module>
+    esptool._main()
+  File "E:\ESP32\Espressif\python_env\idf5.2_py3.11_env\Lib\site-packages\esptool\__init__.py", line 1314, in _main
+    main()
+  File "E:\ESP32\Espressif\python_env\idf5.2_py3.11_env\Lib\site-packages\esptool\__init__.py", line 1036, in main
+    operation_func(esp, args)
+  File "E:\ESP32\Espressif\python_env\idf5.2_py3.11_env\Lib\site-packages\esptool\cmds.py", line 491, in write_flash
+    if set_flash_size and set_flash_size > flash_end:
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'int' and 'NoneType'
+CMake Error at run_serial_tool.cmake:66 (message):
+  
+  E:/ESP32/Espressif/python_env/idf5.2_py3.11_env/Scripts/python.exe;;E:/ESP32/Espressif/frameworks/esp-idf-v5.2.3/components/esptool_py/esptool/esptool.py;--chip;esp32
+  failed.
+
+
+
